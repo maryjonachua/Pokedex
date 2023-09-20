@@ -23,7 +23,7 @@ const SearchBar = ({types,handleTypeChange,handleSearchInputChange}) => {
 
         <div className="filter-container">
           <select onChange={handleTypeChange}>
-            <option >Filter Type</option>
+        
             <option value ={'All'}>All</option>
             {types.map((type,index) => (
               
